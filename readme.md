@@ -7,7 +7,7 @@ _Un script de Golang creado para realizar backup en AWS S3_
 ### Como Usar el Script 📋
 
 ```
-aws-backup --bucket bucket-name --path / folder / to / upload --zip name-of-the-zip.zip
+aws-backup-s3 --bucket bucket-name --path / folder / to / upload --zip name-of-the-zip.zip
 ```
 
 _El script comprime la carpeta que se pasa como parámetro, después de esto, carga el archivo comprimido en AWS S3_
